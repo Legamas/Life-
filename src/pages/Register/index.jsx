@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import Button from '../../components/Button';
 import Input from '../../components/Input';
 
@@ -27,9 +29,11 @@ function Register() {
                     </div>
 
                     <Button> Cadastrar</Button>
-                    
+
                     <h2>Já tem uma conta?</h2>
-                    <Button>Login</Button>
+                    <Link to="/">
+                        <Button>Login</Button>
+                    </Link>
                 </div>
             </div>
 
