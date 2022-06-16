@@ -7,7 +7,7 @@ function Header({ children }) {
     return (
         <Container>
             <img src="assets/logoWithoutName.svg" alt="logo" />
-            {children}
+            <h1>{children}</h1>
             <Profile userName="José Ramos" />
         </Container>
     )
