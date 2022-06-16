@@ -1,4 +1,5 @@
 import React from 'react';
+import Profile from '../Profile';
 
 import { Container } from './styles';
 
@@ -7,9 +8,7 @@ function Header({ children }) {
         <Container>
             <img src="assets/logoWithoutName.svg" alt="logo" />
             {children}
-            <div>
-                <h4>José Ramos</h4>
-            </div>
+            <Profile userName="José Ramos" />
         </Container>
     )
 }
