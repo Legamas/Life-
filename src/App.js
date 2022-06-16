@@ -1,4 +1,5 @@
 import React from 'react';
+import Historic from './pages/Historic';
 import Index from './pages/Index';
 import Menu from './pages/Menu';
 import Register from './pages/Register';
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       <NormalizeStyles />
-      <Menu />
+      <Historic />
     </>
   )
 }
